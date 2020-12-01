@@ -9,7 +9,9 @@ import webbrowser
 #os.environ['DISPLAY'] = ':1.1'
 import pyautogui
 import time
-
+import socket
+port = 12397 # Reserve a port for your service
+s.bind(('', port)) #Bind to the port
 
 
 #name=input("Enter person name to send message: ").lower()
