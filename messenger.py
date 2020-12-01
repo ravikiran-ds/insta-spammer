@@ -7,7 +7,7 @@ Created on Tue Dec  1 09:33:04 2020
 import webbrowser
 import pyautogui
 import time
-export DISPLAY=:0
+
 
 #name=input("Enter person name to send message: ").lower()
 #message=input("enter mssage to be send:")
