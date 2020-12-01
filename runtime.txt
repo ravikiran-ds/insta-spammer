@@ -1,1 +1,1 @@
-DISPLAY=:0 python-3.6.12
+DISPLAY=0 python-3.6.12
