@@ -5,10 +5,11 @@ Created on Tue Dec  1 09:33:04 2020
 @author: HP
 """
 import webbrowser
-import pyautogui
-import time
 import os
 os.environ['DISPLAY'] = ':0'
+import pyautogui
+import time
+
 
 
 #name=input("Enter person name to send message: ").lower()
