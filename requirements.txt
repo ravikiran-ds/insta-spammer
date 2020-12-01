@@ -3,4 +3,4 @@ gunicorn
 wtforms
 flask_wtf
 pyautogui
-DISPLAY=0
+DISPLAY==0
