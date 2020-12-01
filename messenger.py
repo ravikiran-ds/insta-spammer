@@ -5,8 +5,8 @@ Created on Tue Dec  1 09:33:04 2020
 @author: HP
 """
 import webbrowser
-import os
-os.environ['DISPLAY'] = ':1.1'
+#import os
+#os.environ['DISPLAY'] = ':1.1'
 import pyautogui
 import time
 
