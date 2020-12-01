@@ -8,7 +8,7 @@ import webbrowser
 import pyautogui
 import time
 from Xlib.display import Display
-DISPLAY=":0" /usr/bin/python3 /home/pi/Custom_Scripts/<script>.py
+DISPLAY=":0"
 
 #name=input("Enter person name to send message: ").lower()
 #message=input("enter mssage to be send:")
