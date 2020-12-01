@@ -6,7 +6,7 @@ Created on Tue Dec  1 09:33:04 2020
 """
 import webbrowser
 import os
-os.environ['DISPLAY'] = ':1.1'
+os.environ['DISPLAY'] = ':0'
 import pyautogui
 import time
 
