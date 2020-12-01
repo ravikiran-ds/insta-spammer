@@ -7,18 +7,17 @@ Created on Tue Dec  1 09:33:04 2020
 import webbrowser
 import pyautogui
 import time
-from Xlib.display import Display
-DISPLAY=":0"
+
 
 #name=input("Enter person name to send message: ").lower()
 #message=input("enter mssage to be send:")
 #no_of_times=int(input("How many times to send:"))
 #goto website
-webbrowser.open('https://www.instagram.com/', new=2)
-time.sleep(10)
 #click on search
 
 def send_msg(name,message,no_of_times):
+    webbrowser.open('https://www.instagram.com/', new=2)
+    time.sleep(10)
     pyautogui.click(940,128)
     #search for name
     pyautogui.typewrite(name)
@@ -35,8 +34,9 @@ def send_msg(name,message,no_of_times):
         pyautogui.typewrite(message)
         pyautogui.click(1363,980)
     print('Done')
-
+'''
 if no_of_times==0:
     send_msg(name,message,no_of_times=1)
 else:
     send_msg(name,message,no_of_times)
+'''
