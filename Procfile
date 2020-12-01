@@ -1,2 +1,2 @@
 web: gunicorn main:app 
-web: basg basg:run
+web: basg:run
