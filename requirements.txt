@@ -3,4 +3,3 @@ gunicorn
 wtforms
 flask_wtf
 pyautogui
-safeeyes
