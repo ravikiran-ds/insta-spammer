@@ -8,6 +8,9 @@ import webbrowser
 import pyautogui
 import time
 
+import os
+os.environ['DISPLAY'] = ':0'
+
 #name=input("Enter person name to send message: ").lower()
 #message=input("enter mssage to be send:")
 #no_of_times=int(input("How many times to send:"))
